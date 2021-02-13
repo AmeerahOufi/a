@@ -1,6 +1,10 @@
 import 'package:academic/academic_staff/Options.dart';
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp(Courses());
+}
+
 class Courses extends StatelessWidget {
   // This widget is the root of your application.
   @override
