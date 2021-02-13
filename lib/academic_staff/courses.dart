@@ -18,8 +18,8 @@ class Courses extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(0, 15, 0, 15),
-                color: Colors.grey,
+                margin: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                color: Colors.red,
                 width: 150,
                 child: TextButton(
                   child: Text(
@@ -37,7 +37,7 @@ class Courses extends StatelessWidget {
 
               //-----------------------------------------------------
               Container(
-                margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
+                margin: EdgeInsets.fromLTRB(15, 20, 15, 20),
                 color: Colors.grey,
                 width: 150,
                 child: TextButton(
@@ -57,7 +57,7 @@ class Courses extends StatelessWidget {
               //__________________________________________________________
 
               Container(
-                margin: EdgeInsets.fromLTRB(0, 25, 0, 25),
+                margin: EdgeInsets.fromLTRB(15, 25, 15, 25),
                 color: Colors.grey,
                 width: 150,
                 child: TextButton(
@@ -77,7 +77,7 @@ class Courses extends StatelessWidget {
               //_________________________________________________________
 
               Container(
-                margin: EdgeInsets.fromLTRB(0, 30, 0, 30),
+                margin: EdgeInsets.fromLTRB(15, 30, 15, 30),
                 color: Colors.grey,
                 width: 150,
                 child: TextButton(

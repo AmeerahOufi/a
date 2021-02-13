@@ -1,5 +1,5 @@
-//import 'package:academic/academic_staff/Camera.dart';
-//import 'package:academic/academic_staff/report.dart';
+import 'package:academic/academic_staff/Camera.dart';
+import 'package:academic/academic_staff/report.dart';
 import 'package:flutter/material.dart';
 
 class Options extends StatelessWidget {
@@ -11,14 +11,14 @@ class Options extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      /* home: Scaffold(
+      home: Scaffold(
           backgroundColor: Colors.white,
           body: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
-                margin: EdgeInsets.fromLTRB(0, 15, 0, 15),
+                margin: EdgeInsets.fromLTRB(15, 15, 15, 15),
                 color: Colors.grey,
                 width: 150,
                 child: TextButton(
@@ -37,7 +37,7 @@ class Options extends StatelessWidget {
 
               //-----------------------------------------------------
               Container(
-                margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
+                margin: EdgeInsets.fromLTRB(15, 20, 15, 20),
                 color: Colors.grey,
                 width: 150,
                 child: TextButton(
@@ -57,7 +57,7 @@ class Options extends StatelessWidget {
               //__________________________________________________________
 
               Container(
-                margin: EdgeInsets.fromLTRB(0, 25, 0, 25),
+                margin: EdgeInsets.fromLTRB(15, 25, 15, 25),
                 color: Colors.grey,
                 width: 150,
                 child: TextButton(
@@ -77,7 +77,6 @@ class Options extends StatelessWidget {
               //_________________________________________________________
             ],
           )),
-   */
     );
   }
 }
